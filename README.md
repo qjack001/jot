@@ -3,7 +3,7 @@ A really quick way to take notes in the command line.
 
 ## Installation
 
-Download `jot.sh` and place it in your root directory. Add `alias jot='sh jot.sh'` to your `~/.bashrc` file.
+Download `jot.sh` and run `mv jot.sh /usr/local/bin/jot`, followed by `chmod +x /usr/local/bin/jot`.
 
 ## Use
 
