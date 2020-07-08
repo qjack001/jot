@@ -14,7 +14,9 @@ fi
 timestamp=$(date +'%Y-%m-%d')
 
 if ! grep -q $timestamp "$file"; then
-  echo "\n\n## $timestamp" >> "$file"
+  echo >> "$file"
+  echo >> "$file"
+  echo "## $timestamp" >> "$file"
   echo >> "$file"
 fi
 
